@@ -7,7 +7,9 @@ myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/doge.jfif') {
       myImage.setAttribute('src','images/cheems.jfif');
+      myHeading.textContent = "Doge ⌇ຶ_⌇ຶ";
     } else {
       myImage.setAttribute('src','images/doge.jfif');
+      myHeading.textContent = 'Cheems!';
     }
 }
