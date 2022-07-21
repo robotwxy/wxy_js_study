@@ -5,9 +5,9 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === '/images/doge.jfif') {
-      myImage.setAttribute('src','/images/cheems.jfif');
+    if(mySrc === 'images/doge.jfif') {
+      myImage.setAttribute('src','images/cheems.jfif');
     } else {
-      myImage.setAttribute('src','/images/doge.jfif');
+      myImage.setAttribute('src','images/doge.jfif');
     }
 }
